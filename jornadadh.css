@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Press Start 2P', sans-serif;
+    color: aliceblue;
+    text-shadow: 2px 4px black;
+}
+
+body{
+    background-color: #0b1270;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.geral-container{
+    width: 90%;
+    background-color: #1a2188;
+    margin-top: 3%;
+    border: 2px solid black;
+}
+
+.ajh-hearder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ajh-hearder h1 {
+    padding: 10px 5px;
+    font-size: 30px;
+}
+
+.ajh-hearder h2 {
+    padding: 12px 5px;
+    font-size: 23px;
+}
+
+.ajh-img{
+    width: 150px;
+    height: 150px;
+}
+
+.ajh-main-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.login-fast-container {
+    background-color: #0f40a1;
+    width: 330px;
+    height: 120px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 4px black;
+}
+
+.login-fast-container:hover {
+    background-color: #1c4daf;
+    width: 335px;
+    height: 125px;
+}
+
+.login-fast-container h3 {
+    padding-bottom: 10px;
+}
+
+.ajh-container-button{
+    width: 80%;
+    height: 50px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ajh-button {
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 90%;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 8px;
+    box-shadow: 3px 4px black;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 14px;
+}
+
+.login-traditio {
+    background-color: #0f40a1;
+    width: 330px;
+    height: 198px;
+    box-shadow: 3px 4px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.login-traditio:hover{
+    width: 335px;
+    height: 204px;
+    background-color: #3166cf;
+}
+
+.login-traditio h3 {
+    padding-bottom: 15px;
+    margin-top: 8px;
+}
+
+.ajh-input-container {
+    width: 80%;
+}
+
+.ajh-input {
+    border: none;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 8px;
+    width: 75%;
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 15px;
+    padding-left: 6px;
+    /*text-align: center;*/
+    outline: none;
+    width: 87%;
+    box-shadow: 3px 4px black;
+    transition: 0.3s;
+}
+
+.btn-login {
+    border: none;
+    margin: 5px;
+    width: 75%;
+    height: 30px;
+    background-color: #4B28D4;
+    cursor: pointer;
+    box-shadow: 3px 4px black;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+.btn-login:hover {
+    background-color: #542feb;
+}
