@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Press Start 2P', sans-serif;
+    color: aliceblue;
+    text-shadow: 2px 4px black;
+}
+
+body{
+    background-color: #0b1270;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    padding: 10px;
+    margin: 10px;
+}
+
+header p {
+    padding: 10px;
+    margin: 15px;
+}
+
+header img {
+    padding: 10px;
+    margin: 10px;
+    width: 70px;
+}
+
+.container-cards{
+    display: flex;
+}
+
+.container-master{
+    width: 150px;
+    height: 220px;
+    background-color: #063fdb;
+    margin-right: 25px;
+    box-shadow: 3px 4px black;
+    transition: 0.2s;
+}
+
+.container-master:hover {
+    width: 170px;
+    height: 240px;
+}
+
+.container-master img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.master p{
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 8PX;
+}
+
+.container-player{
+    width: 150px;
+    height: 220px;
+    background-color: #063fdb;
+    margin-left: 25px;
+    box-shadow: 3px 4px black;
+    transition: 0.2s;
+}
+
+.container-player:hover {
+    width: 170px;
+    height: 240px;
+}
+
+.container-player img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.jogador p {
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 8PX;
+}
